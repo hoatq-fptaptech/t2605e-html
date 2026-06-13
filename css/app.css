@@ -1,0 +1,19 @@
+body{
+    background-color: #ffe4c4;
+    background-image: url("../imgs/white-cloud-blue-sky-sea_74190-4488.avif");
+    background-size: cover;
+}
+h1{
+
+}
+p{
+   color: #353d3d; 
+   font-size: 20px;
+   line-height: 1.5;
+   font-family: "Roboto", sans-serif;
+   text-align: justify;/* center left right justify*/
+   font-weight: 400;/* 100 200 300 400(normal) 500 600 700(bold) 800 */
+   text-decoration: none ;/* underline line-through overline none*/
+   text-transform: none;/* uppercase lowercase capitalize none*/
+
+}
