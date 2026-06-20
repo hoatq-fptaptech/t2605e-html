@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: all 200ms;
+}
+body{
+    background-color: #fafafa;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ffa500;
+}
+img{
+    max-width: 100%;
+}
+/* style layout */
+.section{
+    float:left;
+    width: 100%;
+}
+.container{
+    float:none;
+    margin: 0 auto;
+    width: 1300px;
+}
+/* end layout */
+.menu{
+    background-color: green;
+}
+.item{
+    width: calc(25% - 30px);
+    /* height: 300px; */
+    float: left;/* left right none */
+    margin: 15px;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #766868;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+
+@media screen and (max-width: 1366px) {
+    .item{
+        width: calc(33.3333% - 30px);
+    }
+    .container{
+        width: 1140px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .item{
+        width: calc(50% - 30px);
+    }
+    .container{
+        width: 950px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .item{
+        width: calc(100% - 30px);
+    }
+    .container{
+        width: 100%;
+    }
+}
