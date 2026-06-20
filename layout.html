@@ -19,7 +19,53 @@
     </nav>
     <section class="section banner-slider">
         <div class="container">
-            <h1>Content Banner here!</h1>
+            <form method="get" action="#">
+                <div class="form-group">
+                    <label>Enter full name</label>
+                    <input name="fullname" type="text" placeholder="Full name" />
+                </div>
+                <div class="form-group">
+                    <label>Enter email</label>
+                    <input name="my_email" type="email" placeholder="Please enter your email" />
+                </div>
+                <div class="form-group">
+                    <label>Enter Password</label>
+                    <input name="pwd" type="password" placeholder="Please enter your password" />
+                </div>
+                <div class="form-group">
+                    <label>Enter your DOB</label>
+                    <input name="dob" type="date" placeholder="Your DOB" />
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <label><input name="gender" type="radio" value="male"/> Male</label>
+                    <label><input name="gender" type="radio" value="female"/> Female</label>
+                </div>
+                <div class="form-group">
+                    <label><input name="send_email" type="checkbox" value="yes"/> 
+                        Send email after register</label>
+                </div>
+                <div class="form-group">
+                    <label>City</label>
+                    <select name="your_city">
+                        <option value="HN">Hanoi</option>
+                        <option value="SG">TP HCM</option>
+                        <option value="HN">Hanoi</option>
+                        <option value="SG">TP HCM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Content </label>
+                    <textarea name="your_profile" rows="4">
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" value="save">Save</button>
+                    <button type="submit" value="save_draft">Save Draft</button>
+                    <button type="button">Button X</button>
+                    <button type="reset">Reset form</button>
+                </div>
+            </form>
         </div>
     </section>
     <main class="section main">
