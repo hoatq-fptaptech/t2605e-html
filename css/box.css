@@ -1,0 +1,27 @@
+img{
+    max-width: 100%;
+}
+div{
+    width: calc(25% - 30px);
+    /* height: 300px; */
+    float: left;/* left right none */
+    margin: 15px;
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #766868;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+div:hover{
+    background-color: #e1e6e4;
+    /* transform: rotate(90deg); */
+    transform: scale(1.15);
+    /* transform: translate(100px,200px); */
+}
+.group-x{
+    background-color: #ffe4c4;
+}
+.group-x h3{
+    color: red;
+}
