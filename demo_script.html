@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/demo.css"/>
 </head>
-<body>
+<body id="page">
     <h1 id="head1">Demo JS...</h1>
-    <h2 id="head2">1000</h2>
+    <h2 id="head2"><span>10</span>:<span>00</span></h2>
+    <div class="box" onclick="box_click(this)" onmouseenter="move()" onmouseleave="moveOut()"></div>
+    
+
+    <button type="button">Move Box</button>
+
+    <button type="button">POPUP</button>
+    <!-- <div class="popup" id="popup">
+        <h1>Popup</h1>
+    </div> -->
+
+    <input onkeyup="inputText2(this)" type="text" name="demo" 
+        placeholder="Enter text"/>
+    <h2 id="msg"></h2>
+    <select name="city" onchange="slc()">
+        <option value="HN">Hà Nội</option>
+        <option value="SG">TP HCM</option>
+        <option value="QN">Quảng Ninh</option>
+    </select>    
     <script type="text/javascript" src="js/demo1.js"></script>
 </body>
 </html>

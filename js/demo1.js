@@ -72,12 +72,12 @@ h1e.classList.add("show-title");
 
 var colors = ["green","red","yellow","orange","blue"];
 var r = 0;
-setInterval(()=>{
-    // sẽ làm các việc trong này sau mỗi 1000ms
-    var cs = r%5;
-    h1e.style.color = colors[cs];
-    r++;
-},5000);
+// setInterval(()=>{
+//     // sẽ làm các việc trong này sau mỗi 1000ms
+//     var cs = r%5;
+//     h1e.style.color = colors[cs];
+//     r++;
+// },5000);
 
 var h2e = document.getElementById("head2");
 var timer = 10;
@@ -89,3 +89,30 @@ setInterval(()=>{
         timer--;
     }
 },1000);
+
+function box_click(e){
+    e.style.backgroundColor = "green";
+}
+
+function move(){
+    var bd = document.getElementById("page");
+    bd.classList.add("dark");
+}
+
+function moveOut(){
+    var bd = document.getElementById("page");
+    bd.classList.remove("dark");
+}
+
+function inputText(x){ 
+// hiểu rằng x: ý định là muốn truyền nguyên phần tử html bên kia sang đây
+    console.log(x.value);
+}
+function inputText2(x){
+    console.log(x.value);
+    document.getElementById("msg").textContent = x.value;
+}
+
+function slc(){
+    alert("SLC....");
+}
