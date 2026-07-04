@@ -1,0 +1,15 @@
+body{
+    background-image: url(../imgs/bg-weather.jpeg);
+    background-size: cover;
+}
+.item{
+    margin: 20px 0;
+    background-color: #00000040;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    height: 160px;
+}
+.item img{
+    transform: translate(150px,-80px);
+}
